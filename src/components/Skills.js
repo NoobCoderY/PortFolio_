@@ -80,6 +80,15 @@ export const Skills = () => {
                   <img src={meter2} alt="Image" />
                   <h5>SQL</h5>
                 </div>
+                <div className="item">
+                  <img src={meter2} alt="Image" />
+                  <h5>Graph Database(neo4j)</h5>
+                </div>
+                <div className="item">
+                  <img src={meter2} alt="Image" />
+                  <h5> graphql  
+                  </h5>
+                </div>
               </Carousel>
             </div>
           </div>
