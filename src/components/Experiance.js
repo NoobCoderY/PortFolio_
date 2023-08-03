@@ -39,6 +39,23 @@ function Experience() {
 
           <p> Computer Science And Engineering</p>
         </VerticalTimelineElement>
+            <VerticalTimelineElement
+          className="vertical-timeline-element--work"
+          date=" jun 2023 -Present "
+          iconStyle={{ background: "#e9d35b", color: "#fff" }}
+          icon={<WorkIcon />}
+        >
+          <h5 className="vertical-timeline-element-title">
+          Full Stack Developer Intern-Simplem solutions
+          </h5>
+          <h6 className="vertical-timeline-element-subtitle">
+           Remote
+          </h6>
+          <p>
+          Developed a Full Home interior design Website using React.js, tailwind, Firebase and Node.js, Express.js, Mongo DB
+
+          </p>
+        </VerticalTimelineElement>
         <VerticalTimelineElement
           className="vertical-timeline-element--work"
           date=" Feb 2023 -April 2023 "
