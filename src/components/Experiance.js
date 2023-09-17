@@ -55,7 +55,7 @@ function Experience() {
           Developed an E‑Commerce website using HTML, CSS JavaScript..
           </p>
         </VerticalTimelineElement>
-      </VerticalTimeline>
+    
         <VerticalTimelineElement
           className="vertical-timeline-element--work"
           date="19 jan 2022 -  19 march 2022"
