@@ -41,22 +41,36 @@ function Experience() {
         </VerticalTimelineElement>
             <VerticalTimelineElement
           className="vertical-timeline-element--work"
-          date=" jun 2023 -Present "
+          date=" 1 Dec 2021 -19 jan 2022 "
           iconStyle={{ background: "#e9d35b", color: "#fff" }}
           icon={<WorkIcon />}
         >
           <h5 className="vertical-timeline-element-title">
-          Full Stack Developer Intern-Simplem solutions
+          Frontend developer Intern - Lueur Tech Software Solution 
           </h5>
           <h6 className="vertical-timeline-element-subtitle">
            Remote
           </h6>
           <p>
-          Developed a Full Home interior design Website using React.js, tailwind, Firebase and Node.js, Express.js, Mongo DB
-
+          Developed an E‑Commerce website using HTML, CSS JavaScript..
           </p>
         </VerticalTimelineElement>
+      </VerticalTimeline>
         <VerticalTimelineElement
+          className="vertical-timeline-element--work"
+          date="19 jan 2022 -  19 march 2022"
+          iconStyle={{ background: "#e9d35b", color: "#fff" }}
+          icon={<WorkIcon />}
+        >
+          <h5 className="vertical-timeline-element-title">
+            Frontend developer Intern - WEBNU
+          </h5>
+          <h6 className="vertical-timeline-element-subtitle">
+            Remote
+          </h6>
+          <p>Developed the frontend using HTML and CSS to make the website dynamic JavaScript is used..</p>
+        </VerticalTimelineElement>
+         <VerticalTimelineElement
           className="vertical-timeline-element--work"
           date=" Feb 2023 -April 2023 "
           iconStyle={{ background: "#e9d35b", color: "#fff" }}
@@ -73,38 +87,24 @@ function Experience() {
 
           </p>
         </VerticalTimelineElement>
-        <VerticalTimelineElement
-          className="vertical-timeline-element--work"
-          date="19 jan 2022 -  19 march 2022"
-          iconStyle={{ background: "#e9d35b", color: "#fff" }}
-          icon={<WorkIcon />}
-        >
-          <h5 className="vertical-timeline-element-title">
-            Frontend developer Intern - WEBNU
-          </h5>
-          <h6 className="vertical-timeline-element-subtitle">
-            Remote
-          </h6>
-          <p>Developed the frontend using HTML and CSS to make the website dynamic JavaScript is used..</p>
-        </VerticalTimelineElement>
 
         <VerticalTimelineElement
           className="vertical-timeline-element--work"
-          date=" 1 Dec 2021 -19 jan 2022 "
+          date=" jun 2023 -Present "
           iconStyle={{ background: "#e9d35b", color: "#fff" }}
           icon={<WorkIcon />}
         >
           <h5 className="vertical-timeline-element-title">
-          Frontend developer Intern - Lueur Tech Software Solution 
+          Full Stack Developer Intern-Simplem solutions
           </h5>
           <h6 className="vertical-timeline-element-subtitle">
            Remote
           </h6>
           <p>
-          Developed an E‑Commerce website using HTML, CSS JavaScript..
+         My work involves working on the frontend and backend of the LMS web application using MERN technology and SQL.
+
           </p>
         </VerticalTimelineElement>
-      </VerticalTimeline>
     </div>
   );
 }
