@@ -8,7 +8,8 @@ import projImg5 from "../assets/img/todo.jpg";
 import projImg6 from "../assets/img/burger.png";
 import projImg7 from "../assets/img/E-commerce.jpg";
 import projImg8 from "../assets/img/quizapp.png";
-import projImg9 from  "../assets/img/109400301-00b29880-796e-11eb-9a74-a7d9ec286e3b.jpg"
+import projImg9 from "../assets/img/109400301-00b29880-796e-11eb-9a74-a7d9ec286e3b.jpg"
+import projImg10 from "../assets/img/twitterImage.png"
 
 
 import colorSharp2 from "../assets/img/color-sharp2.png";
@@ -18,6 +19,12 @@ import TrackVisibility from 'react-on-screen';
 export const Projects = () => {
 
   const projects = [
+    {
+      title: "Twitter Clone",
+      description: "Nextjs,Tailwind Css,React query, React‑router‑dom ,Graphql-Request,Codegen",
+      imgUrl: projImg10,
+      link:"https://github.com/NoobCoderY/Twitter_Client"
+    },
     {
       title: "Crypto App",
       description: "React.js, React‑router‑dom, Material‑UI, Firebase",
@@ -53,6 +60,12 @@ export const Projects = () => {
   ];
   const projects1 = [
     {
+      title: "Twitter Clone",
+      description: "Node.js,Express.js,Graphql,Prisma Orm,Superbase,Redis,Google OAuth,JSON WEB TOKENS,AWS",
+      imgUrl: projImg10,
+      link:"https://github.com/NoobCoderY/Twitter_Server"
+    },
+    {
       title: "Burger Wala",
       description: "React.js,Node.js,MongoDB,Express.js,Passport.js Framer Motion Redux SASS",
       imgUrl: projImg6,
@@ -82,6 +95,12 @@ export const Projects = () => {
   ];
   const projects2 = [
     {
+      title: "Twitter Clone",
+      description: "Node.js,Express.js,Graphql,Prisma Orm,Superbase,Redis,Google OAuth,AWS,Nextjs,Tailwind Css,React query",
+      imgUrl: projImg10,
+      link:"https://github.com/NoobCoderY/Twitter_Server"
+    },
+    {
       title: "Burger Wala",
       description: "React.js,Node.js,MongoDB,Express.js,Passport.js Framer Motion Redux SASS",
       imgUrl: projImg6,
@@ -100,6 +119,14 @@ export const Projects = () => {
       imgUrl: projImg1,
       link:"https://github.com/NoobCoderY/Crypto_app"
     },
+
+    
+    {
+      title: "E-commerce",
+      description: " JavaScript,Node.js,Express.js,MongoDb",
+      imgUrl: projImg7,
+      link:"https://github.com/NoobCoderY/e-commerce__backend"
+    },  
     
     {
       title: "Excel-Clone",
@@ -108,21 +135,6 @@ export const Projects = () => {
       link:"https://github.com/NoobCoderY/Excel_Clone"
     },
 
-    {
-      title: "E-commerce",
-      description: " JavaScript,Node.js,Express.js,MongoDb",
-      imgUrl: projImg7,
-      link:"https://github.com/NoobCoderY/e-commerce__backend"
-    },
-
-    {
-      title: "Hackerrank Automation",
-      description: "Nodejs, JavaScript, Puppeteer, JSDOM",
-      imgUrl: projImg9,
-      link:""
-    },
-   
-    
   
   ];
 
