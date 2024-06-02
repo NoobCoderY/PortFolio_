@@ -57,6 +57,7 @@ export const Skills = () => {
                   <img src={meter3} alt="Image" />
                   <h5>React.js</h5>
                 </div>
+        
                 <div className="item">
                   <img src={meter3} alt="Image" />
                   <h5>Next.js</h5>
@@ -66,6 +67,12 @@ export const Skills = () => {
                 <h5>Redux</h5>
               </div>
                
+                 <div className="item">
+                <img src={meter2} alt="Image" />
+                <h5>MobX</h5>
+              </div>
+                
+                
                 <div className="item">
                   <img src={meter2} alt="Image" />
                   <h5>TypeScript</h5>

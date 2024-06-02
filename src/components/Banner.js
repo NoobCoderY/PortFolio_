@@ -57,7 +57,11 @@ export const Banner = () => {
               <div className={isVisible ? "animate__animated animate__fadeIn" : ""}>
                 <span className="tagline">Welcome to my Portfolio</span>
                 <h1>{`Hi! I'm Yash`} <span className="txt-rotate" dataPeriod="1000" data-rotate='[ "Software Developer", "Web Developer", "Problem Solver" ]'><span className="wrap">{text}</span></span></h1>
-                  <p>I'm a final year undergraduate pursuing a Bachelor of Technology in Computer Science and Engineering at Harcourt Butler Technical University. I am good in problem solving ,Proficient in DSA(C++) . I am also quite active in competitive programming.I am  a Mern Stack Developer</p>
+                  <p>As a MERN full stack developer, I have experience in developing dynamic and scalable web applications 
+using MongoDB, Express, ReactJS, and NodeJS. With a strong background in both front-end and back-end development, I am able to create intuitive and seamless user experiences while also ensuring efficient server-side functionality.
+Additionally, I possess strong analytical and problem-solving skills, which allows me to identify and 
+resolve issues quickly and effectively. I am a self-motivated individual with excellent communication 
+and interpersonal skills, and I am always eager to learn new technologies and techniques to enhance my skills as a developer</p>
                   <button onClick={() => console.log('connect')}>Let’s Connect <ArrowRightCircle size={25} /></button>
               </div>}
             </TrackVisibility>

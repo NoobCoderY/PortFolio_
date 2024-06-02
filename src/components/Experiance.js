@@ -14,7 +14,7 @@ function Experience() {
       <VerticalTimeline lineColor="#3e497a">
         <VerticalTimelineElement
           className="vertical-timeline-element--education"
-          date="2017 - 2019"
+          date="2017 - 2018"
           iconStyle={{ background:"#3e497a", color: "#fff" }}
           icon={<SchoolIcon />}
         >
@@ -39,7 +39,38 @@ function Experience() {
 
           <p> Computer Science And Engineering</p>
         </VerticalTimelineElement>
+            <VerticalTimelineElement
+          className="vertical-timeline-element--work"
+          date=" 1 Dec 2021 -19 jan 2022 "
+          iconStyle={{ background: "#e9d35b", color: "#fff" }}
+          icon={<WorkIcon />}
+        >
+          <h5 className="vertical-timeline-element-title">
+          Frontend developer Intern - Lueur Tech Software Solution 
+          </h5>
+          <h6 className="vertical-timeline-element-subtitle">
+           Remote
+          </h6>
+          <p>
+          Developed an E‑Commerce website using HTML, CSS JavaScript..
+          </p>
+        </VerticalTimelineElement>
+    
         <VerticalTimelineElement
+          className="vertical-timeline-element--work"
+          date="19 jan 2022 -  19 march 2022"
+          iconStyle={{ background: "#e9d35b", color: "#fff" }}
+          icon={<WorkIcon />}
+        >
+          <h5 className="vertical-timeline-element-title">
+            Frontend developer Intern - WEBNU
+          </h5>
+          <h6 className="vertical-timeline-element-subtitle">
+            Remote
+          </h6>
+          <p>Developed the frontend using HTML and CSS to make the website dynamic JavaScript is used..</p>
+        </VerticalTimelineElement>
+         <VerticalTimelineElement
           className="vertical-timeline-element--work"
           date=" Feb 2023 -April 2023 "
           iconStyle={{ background: "#e9d35b", color: "#fff" }}
@@ -56,38 +87,61 @@ function Experience() {
 
           </p>
         </VerticalTimelineElement>
-        <VerticalTimelineElement
-          className="vertical-timeline-element--work"
-          date="19 jan 2022 -  19 march 2022"
-          iconStyle={{ background: "#e9d35b", color: "#fff" }}
-          icon={<WorkIcon />}
-        >
-          <h5 className="vertical-timeline-element-title">
-            Frontend developer Intern - WEBNU
-          </h5>
-          <h6 className="vertical-timeline-element-subtitle">
-            Remote
-          </h6>
-          <p>Developed the frontend using HTML and CSS to make the website dynamic JavaScript is used..</p>
-        </VerticalTimelineElement>
 
         <VerticalTimelineElement
           className="vertical-timeline-element--work"
-          date=" 1 Dec 2021 -19 jan 2022 "
+          date=" jun 2023 -Oct 2023 "
           iconStyle={{ background: "#e9d35b", color: "#fff" }}
           icon={<WorkIcon />}
         >
           <h5 className="vertical-timeline-element-title">
-          Frontend developer Intern - Lueur Tech Software Solution 
+          Full Stack Developer Intern-Simplem solutions
           </h5>
           <h6 className="vertical-timeline-element-subtitle">
            Remote
           </h6>
           <p>
-          Developed an E‑Commerce website using HTML, CSS JavaScript..
+         My work involves working on the frontend and backend of the LMS web application using MERN technology and SQL.
+
           </p>
         </VerticalTimelineElement>
-      </VerticalTimeline>
+        <VerticalTimelineElement
+          className="vertical-timeline-element--work"
+          date=" Oct 2023 -Feb 2024 "
+          iconStyle={{ background: "#e9d35b", color: "#fff" }}
+          icon={<WorkIcon />}
+        >
+          <h5 className="vertical-timeline-element-title">
+            Full Stack Developer Full TIme-Geekers Brain Pvt. Ltd 
+          </h5>
+          <h6 className="vertical-timeline-element-subtitle">
+            Remote
+          </h6>
+          <p>
+            Collaborated with the development team to design and implement scalable web applications using the MERN stack.Implemented
+            server-side logic and APIs using Node.js, Express.js, AWS (Cloud Hoisting and Storage).
+
+          </p>
+        </VerticalTimelineElement>
+        <VerticalTimelineElement
+          className="vertical-timeline-element--work"
+          date=" Feb 2024 - Present "
+          iconStyle={{ background: "#e9d35b", color: "#fff" }}
+          icon={<WorkIcon />}
+        >
+          <h5 className="vertical-timeline-element-title">
+            Full Stack Developer Full TIme-BaryTech Technologies
+          </h5>
+          <h6 className="vertical-timeline-element-subtitle">
+            Remote
+          </h6>
+          <p>
+            Collaborated with the development team to design and implement scalable web applications using the MERN (Next.js) stack.Implemented
+            server-side logic and APIs using Node.js, Express.js, Supabase, Vercel
+
+          </p>
+        </VerticalTimelineElement>
+        </VerticalTimeline>
     </div>
   );
 }
