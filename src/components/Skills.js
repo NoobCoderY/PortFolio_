@@ -1,3 +1,4 @@
+/* eslint-disable jsx-a11y/img-redundant-alt */
 import meter1 from "../assets/img/meter1.svg";
 import meter2 from "../assets/img/meter2.svg";
 import meter3 from "../assets/img/meter3.svg";
@@ -50,16 +51,21 @@ export const Skills = () => {
                 </div>
                 <div className="item">
                   <img src={meter3} alt="Image" />
+                  <h5>JavaScript</h5>
+                </div>
+                <div className="item">
+                  <img src={meter3} alt="Image" />
                   <h5>React.js</h5>
+                </div>
+                <div className="item">
+                  <img src={meter3} alt="Image" />
+                  <h5>Next.js</h5>
                 </div>
                 <div className="item">
                 <img src={meter2} alt="Image" />
                 <h5>Redux</h5>
               </div>
-                <div className="item">
-                <img src={meter3} alt="Image" />
-                <h5>JavaScript</h5>
-              </div>
+               
                 <div className="item">
                   <img src={meter2} alt="Image" />
                   <h5>TypeScript</h5>
@@ -87,6 +93,11 @@ export const Skills = () => {
                 <div className="item">
                   <img src={meter2} alt="Image" />
                   <h5> graphql  
+                  </h5>
+                </div>
+                <div className="item">
+                  <img src={meter2} alt="Image" />
+                  <h5> Supabase
                   </h5>
                 </div>
               </Carousel>

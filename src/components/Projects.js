@@ -47,6 +47,7 @@ export const Projects = () => {
       title: "ToDo APP",
       description: "React.js Local Storage",
       imgUrl: projImg5,
+      link:"https://github.com/NoobCoderY/FullStackTaskBoardFrontend"
   
     },
   
